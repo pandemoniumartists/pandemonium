@@ -6,7 +6,7 @@ body{
     color: #333;
     background: #eee;
     font-family: 'neue-haas-grotesk-text', serif;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     line-height: 1.1rem;
     margin: 4%;
 }
@@ -18,8 +18,8 @@ h3{
 }
 
 header p{
-    font-size: 0.8rem;
-    line-height: 1.2rem;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
 }
 
 header{
@@ -78,11 +78,11 @@ a, a:hover, a:visited{
     float: none;
 }
 
-#rotation, #bench, #shadows, footer{
+#rotation, #bench, #shadows, #mascot, footer{
     margin-top: 4rem;
 }
 
-#bench p i, #shadows p i{
+#bench p i, #shadows p i, #mascot p i{
     display: none;
 }
 
@@ -118,15 +118,6 @@ h2{
 
     .section a:nth-of-type(even) .player{
         margin-right: 0%;
-    }
-
-    body{
-        font-size: 1rem;
-    }
-
-    header p{
-        font-size: 1rem;
-        line-height: 1.4rem;
     }
 
     #logo{
