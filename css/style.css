@@ -24,7 +24,7 @@ header p{
 
 header{
     padding-bottom: 4rem;
-/*    border-bottom: solid 1px #333;*/
+    /*    border-bottom: solid 1px #333;*/
 }
 
 header a{
@@ -95,7 +95,7 @@ a, a:hover, a:visited{
 }
 
 .player p i{
-/*color: #fff69c;*/
+    /*color: #fff69c;*/
     font-size: 0.6rem;
 }
 
@@ -106,4 +106,32 @@ a, a:hover, a:visited{
 
 h2{
     font-weight: bold;
+}
+
+
+
+@media all and (max-width:768px) {
+    .player{
+        width: 46%;
+        margin-right: 4%;
+    }
+
+    .section a:nth-of-type(even) .player{
+        margin-right: 0%;
+    }
+
+    body{
+        font-size: 1rem;
+    }
+
+    header p{
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    #logo{
+        width: 30%;
+        display: block;
+        margin-bottom: 20px;
+    }
 }
